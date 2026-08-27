@@ -27,6 +27,7 @@ class ExamenMedico(BaseModel):
     parametrosDesempeno: str
     informacionClinica: str
     referencias: str
+    Inserto: str
 
 # --- CONFIGURACIÓN DE GOOGLE SHEETS ---
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
